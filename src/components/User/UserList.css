@@ -1,0 +1,7 @@
+.users ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+.users li{
+    list-style: none;
+}
