@@ -5,7 +5,7 @@ import SingleUser from './SingleUser';
 import "./UserList.css"
 const UserList = (props) => {
     const[users,setUsers]= useState([]);
-//fetch yöntemleri
+//fetch api
     // useEffect(() => {
     //     fetch('https://rickandmortyapi.com/api/character')
     //     .then(response => response.json())//json çevirilir
